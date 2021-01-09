@@ -1,14 +1,14 @@
 Rails.application.routes.draw do
   # verb path '/dfdss', to: 'controller#action'
-  # DISPLAY ALL RESTAURANT (R)
+  # #DISPLAY ALL RESTAURANT (R)
   # get '/restaurants', to: 'restaurants#index'
-
-  # # DISPLAY A SINGLE RESTAURANT (R)
-  # get '/restaurants/:id', to: 'restaurants#show', as: :restaurant
 
   # # CREATE A RESTAURANT (C)
   # get '/restaurants/new', to: 'restaurants#new'
   # post '/restaurants', to: 'restaurants#create'
+
+  # # DISPLAY A SINGL/restaurants/:idE RESTAURANT (R)
+  # get '', to: 'restaurants#show', as: :restaurant
 
   # # UPDATE A RESTAURANT (U)
   # get '/restaurants/:id/edit', to: 'restaurants#edit'

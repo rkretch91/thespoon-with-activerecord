@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+100.times do
+  r = Restaurant.create!(name: Faker::Restaurant.name, address: Faker::Address.city, rating: rand(1..5))
+  puts "Restaurant #{r.id} created"
+end
